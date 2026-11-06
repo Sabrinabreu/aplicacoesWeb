@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
 
-const roboto = Roboto({subsets: ["latin"], weight: "300"})
+const roboto = Roboto({subsets: ["latin"], weight:"300"});
 
 export const metadata: Metadata = {
   title: "Imagem Peças",

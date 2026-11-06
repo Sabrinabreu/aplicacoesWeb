@@ -5,21 +5,20 @@ import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
 interface TemplateProps {
-    children: React.ReactNode
+  children: React.ReactNode;
 }
 
 export const Template: React.FC<TemplateProps> = (props: TemplateProps) => {
-    return(
-        <>
-        <Header/>
-
+  return (
+    <>
+      <Header />
+      <div className="container mx-auto mt-8 px-4">
         {props.children}
-
-
-        <Footer/>
-        </>
-    )
-}
+      </div>
+      <Footer />
+    </>
+  );
+};
 
 const Header: React.FC = () => {
   const pathname = usePathname();
@@ -52,7 +51,7 @@ const Header: React.FC = () => {
   };
 
   const navLinks = [
-    { name: 'Galeria', href: '/' },
+    { name: 'Galeria', href: '/galeria' },
     { name: 'Cadastro', href: '/cadastro' },
     { name: 'Login', href: '/login' },
     { name: 'Sair', href: '/sair' },
@@ -61,8 +60,7 @@ const Header: React.FC = () => {
   return (
     <header className="sticky top-0 w-full bg-primary/80">
       <div className="container mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        {/* Logo */}
-        <Link href="/" className="text-xl font-bold tracking-wide text-foreground hover:text-accent transition-colors">
+        <Link href="/" className="text-2xl font-extrabold tracking-tight text-foreground hover:text-accent transition-colors">
           ACERVO
         </Link>
 
@@ -122,7 +120,7 @@ const Header: React.FC = () => {
 
 const Footer: React.FC = () => {
   return (
-    <footer className="w-full bg-primary/80">
+    <footer className="w-full bg-primary/80 mt-12">
       <div className="container mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <h1 className="text-xl font-bold tracking-wide text-foreground hover:text-accent transition-colors">
           FOOTER TEMPORARIO

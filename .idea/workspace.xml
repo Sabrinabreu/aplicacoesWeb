@@ -5,27 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="820fed46-cee1-4d89-a85a-d93c9a7885d1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/imagemPecas/ImagemPecasApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/imagemPecas/application/images/ImageDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/imagemPecas/application/images/ImageMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/imagemPecas/application/images/ImageServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/imagemPecas/application/images/imagesController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/imagemPecas/domain/entity/Image.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/imagemPecas/domain/enums/ImageExtension.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/imagemPecas/domain/service/ImageService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/imagemPecas/infra/Repository/ImageRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/imagemPecas/infra/repository/specs/GenericSpecs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/imagemPecas/infra/repository/specs/ImageSpecs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/imagemPecas/ImagemPecasApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagemPecasFront/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/imagemPecasFront/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagemPecasFront/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/imagemPecasFront/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagemPecasFront/src/app/galeria/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/imagemPecasFront/src/app/galeria/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagemPecasFront/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/imagemPecasFront/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagemPecasFront/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/imagemPecasFront/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagemPecasFront/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/imagemPecasFront/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagemPecasFront/src/components/Template.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/imagemPecasFront/src/components/Template.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
